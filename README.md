@@ -63,11 +63,17 @@ developing your own process.
 - Add a new toy when the toy form is submitted
 
   - How I debugged:
+  => fixed the typo in the toy_params method in the toys_controller.rb file
+  => added the render method in the create method in the toys_controller.rb file to create a new toy
 
 - Update the number of likes for a toy
 
-  - How I debugged:
+  - How I debugged: 
+  => added the render method in the update method in the toys_controller.rb file to update the number of likes for a toy
+
 
 - Donate a toy to Goodwill (and delete it from our database)
 
   - How I debugged:
+  => added the render method in the destroy method in the toys_controller.rb file to delete a toy from the database
+  => edited the toys resource in the routes.rb file to include the destroy method
